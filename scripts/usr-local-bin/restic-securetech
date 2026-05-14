@@ -1,0 +1,24 @@
+#!/bin/bash
+set -euo pipefail
+
+ENV_FILE="/etc/securetech/restic.env"
+
+if [ ! -f "$ENV_FILE" ]; then
+   echo "ERROR: no existe $ENV_FILE" >&2
+   exit 1
+fi
+
+# shellcheck disable=SC1091
+source "$ENV_FILE"
+
+: "${AWS_ACCESS_KEY_ID:?Falta AWS_ACCESS_KEY_ID}"
+: "${AWS_SECRET_ACCESS_KEY:?Falta AWS_SECRET_ACCESS_KEY}"
+: "${RESTIC_REPOSITORY:?Falta RESTIC_REPOSITORY}"
+: "${RESTIC_PASSWORD_FILE:?Falta RESTIC_PASSWORD_FILE}"
+
+if [ ! -f "$RESTIC_PASSWORD_FILE" ]; then
+   echo "ERROR: no existe el fichero de contraseña: $RESTIC_PASSWORD_FILE" >&2
+   exit 1
+fi
+
+exec restic "$@"
