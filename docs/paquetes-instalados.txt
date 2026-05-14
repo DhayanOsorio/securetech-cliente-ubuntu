@@ -1,0 +1,14 @@
+===== PAQUETES RELACIONADOS CON SECURETECH =====
+ii  anacron                                       2.3-39ubuntu2                            amd64        cron-like program that doesn't go by time
+ii  ca-certificates                               20240203                                 all          Common CA certificates
+ii  cron                                          3.0pl1-184ubuntu2                        amd64        process scheduling daemon
+ii  cron-daemon-common                            3.0pl1-184ubuntu2                        all          process scheduling daemon's configuration files
+ii  curl                                          8.5.0-2ubuntu10.8                        amd64        command line tool for transferring data with URL syntax
+ii  jq                                            1.7.1-3ubuntu0.24.04.1                   amd64        lightweight and flexible command-line JSON processor
+ii  libcurl3t64-gnutls:amd64                      8.5.0-2ubuntu10.8                        amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl4t64:amd64                             8.5.0-2ubuntu10.8                        amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libjq1:amd64                                  1.7.1-3ubuntu0.24.04.1                   amd64        lightweight and flexible command-line JSON processor - shared library
+ii  libjs-jquery                                  3.6.1+dfsg+~3.5.14-1                     all          JavaScript library for dynamic web applications
+ii  restic                                        0.16.4-2ubuntu0.24.04.3                  amd64        backup program with multiple revisions, encryption and more
+ii  wireguard                                     1.0.20210914-1ubuntu4                    all          fast, modern, secure kernel VPN tunnel (metapackage)
+ii  wireguard-tools                               1.0.20210914-1ubuntu4                    amd64        fast, modern, secure kernel VPN tunnel (userland utilities)

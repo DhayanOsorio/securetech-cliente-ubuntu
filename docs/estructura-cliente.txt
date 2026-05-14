@@ -1,0 +1,17 @@
+===== ESTRUCTURA /etc/securetech =====
+/etc/securetech
+/etc/securetech/restic.env
+/etc/securetech/restic.pass
+/etc/securetech/client.env
+
+===== ESTRUCTURA /usr/local/bin SECURETECH =====
+-rwxr-xr-x  1 root root  534 abr 27 17:17 backup-agent.sh
+-rwxr-xr-x  1 root root 2211 abr 27 17:08 backup.sh
+-rwxr-xr-x  1 root root  571 feb 27 16:10 restic-securetech
+-rwxr-xr-x  1 root root   81 abr 25 17:33 restic-st
+-rwxr-xr-x  1 root root  255 feb 27 16:12 restore-securetech.sh
+
+===== ESTRUCTURA /datos_pyme =====
+/datos_pyme
+/datos_pyme/prueba2.txt
+/datos_pyme/prueba1.txt

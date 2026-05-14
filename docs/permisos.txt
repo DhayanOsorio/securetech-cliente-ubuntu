@@ -1,0 +1,28 @@
+===== /etc/securetech =====
+total 28
+drwx------   2 root root  4096 may 14 09:00 .
+drwxr-xr-x 158 root root 12288 abr 25 16:30 ..
+-rw-------   1 root root   106 abr 27 17:03 client.env
+-rw-------   1 root root   199 abr 25 17:30 restic.env
+-rw-------   1 root root    13 abr 25 17:31 restic.pass
+
+===== /usr/local/bin scripts SecureTECH =====
+-rwxr-xr-x 1 root root 534 abr 27 17:17 /usr/local/bin/backup-agent.sh
+-rwxr-xr-x 1 root root 2211 abr 27 17:08 /usr/local/bin/backup.sh
+-rwxr-xr-x 1 root root 571 feb 27 16:10 /usr/local/bin/restic-securetech
+-rwxr-xr-x 1 root root 81 abr 25 17:33 /usr/local/bin/restic-st
+-rwxr-xr-x 1 root root 255 feb 27 16:12 /usr/local/bin/restore-securetech.sh
+
+===== /etc/wireguard =====
+total 24
+drwx------   3 root root  4096 abr 25 17:09 .
+drwxr-xr-x 158 root root 12288 abr 25 16:30 ..
+drwxr-xr-x   2 root root  4096 abr 25 17:09 keys
+-rw-------   1 root root   226 abr 24 15:27 wg0.conf
+
+===== /datos_pyme =====
+total 16
+drwxr-xr-x  2 cliente cliente 4096 abr 27 16:45 .
+drwxr-xr-x 24 root    root    4096 feb  4 15:50 ..
+-rw-r--r--  1 root    root      20 abr 27 16:45 prueba1.txt
+-rw-r--r--  1 root    root      20 abr 27 16:45 prueba2.txt
